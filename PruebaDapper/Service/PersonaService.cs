@@ -9,7 +9,7 @@ public class PersonaService : IPersonaService
 
     public PersonaService(IConfiguration configuration)
     {
-        _connectionString = configuration.GetConnectionString("DefaultConnection");
+        _connectionString = configuration.GetConnectionString("cadenaSQL");
     }
 
     public async Task<List<PersonaDTO>> ObtenerPersona()
