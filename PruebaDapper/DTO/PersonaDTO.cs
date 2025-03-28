@@ -1,38 +1,16 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-
-namespace PruebaDapper.DTO
+﻿namespace PruebaDapper.DTO
 {
-    [Table("HCK_PERSONAS")]
     public class PersonaDTO
     {
-        [Column("CEDULA")]
         public string Cedula { get; set; }
-
-        [Column("NOMBRES")]
         public string Nombres { get; set; }
-
-        [Column("APELLIDOS")]
         public string Apellidos { get; set; }
-
-        [Column("CIUDADANIA")]
         public string Ciudadania { get; set; }
-
-        [Column("FECHA_NACIMIENTO")]
-        public DateTime FechaNacimiento { get; set; }
-
-        [Column("ESTADO_CIVIL")]
-        public string EstadoCivil { get; set; }
-
-        [Column("PROFESION")]
+        public DateTime? Fecha_Nacimiento { get; set; }
+        public string Estado_Civil { get; set; }
         public string Profesion { get; set; }
-
-        [Column("NIVEL_ESTUDIOS")]
-        public string NivelEstudios { get; set; }
-
-        [Column("ES_CLIENTE")]
-        public int EsCliente { get; set; }
-
-        [Column("TIPO_PERSONA")]
-        public string TipoPersona { get; set; }
+        public string Nivel_Estudios { get; set; }
+        public int? Es_Cliente { get; set; }
+        public string Tipo_Persona { get; set; }
     }
 }
