@@ -3,7 +3,7 @@
 namespace PruebaDapper.DTO
 {
     [Table("HCK_PERSONAS")]
-    public class HckPersona
+    public class PersonaDTO
     {
         [Column("CEDULA")]
         public string Cedula { get; set; }
