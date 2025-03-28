@@ -12,13 +12,13 @@ public class PersonaService : IPersonaService
         _connectionString = configuration.GetConnectionString("cadenaSQL");
     }
 
-    public async Task<List<PersonaDTO>> ObtenerPersona()
+    public async Task<List<PersonaDTO>> ObtenerPersona(string cedula)
     {
         using var connection = new SqlConnection(_connectionString);
-        string query = @"SELECT TOP 1000 *
-                         FROM HCK_PERSONAS";
+        string query = @"SELECT *
+                         FROM HCK_PERSONAS WHERE CEDULA =@cedula";
 
-        var personas = await connection.QueryAsync<PersonaDTO>(query);
+        var personas = await connection.QueryAsync<PersonaDTO>(query, new { cedula });
         return personas.ToList();
     }
 }

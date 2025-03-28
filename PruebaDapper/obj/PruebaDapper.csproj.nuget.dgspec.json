@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\is-arequelme\\source\\repos\\PruebaDapper\\PruebaDapper\\PruebaDapper.csproj": {}
+    "C:\\Users\\is-arequelme\\source\\repos\\git\\dapper\\PruebaDapper\\PruebaDapper\\PruebaDapper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\is-arequelme\\source\\repos\\PruebaDapper\\PruebaDapper\\PruebaDapper.csproj": {
+    "C:\\Users\\is-arequelme\\source\\repos\\git\\dapper\\PruebaDapper\\PruebaDapper\\PruebaDapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\is-arequelme\\source\\repos\\PruebaDapper\\PruebaDapper\\PruebaDapper.csproj",
+        "projectUniqueName": "C:\\Users\\is-arequelme\\source\\repos\\git\\dapper\\PruebaDapper\\PruebaDapper\\PruebaDapper.csproj",
         "projectName": "PruebaDapper",
-        "projectPath": "C:\\Users\\is-arequelme\\source\\repos\\PruebaDapper\\PruebaDapper\\PruebaDapper.csproj",
+        "projectPath": "C:\\Users\\is-arequelme\\source\\repos\\git\\dapper\\PruebaDapper\\PruebaDapper\\PruebaDapper.csproj",
         "packagesPath": "C:\\Users\\is-arequelme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\is-arequelme\\source\\repos\\PruebaDapper\\PruebaDapper\\obj\\",
+        "outputPath": "C:\\Users\\is-arequelme\\source\\repos\\git\\dapper\\PruebaDapper\\PruebaDapper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

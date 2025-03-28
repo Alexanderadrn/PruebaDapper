@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B8k5aB87LCqju/FZzenDKqiBU0eZOxBfJwv2WexRysdVl416S6QIBwnK/yiD6E2xBcGTDE9NGFumb58XuTywsg==",
+  "dgSpecHash": "kjQOvGKS4HUH4ZGvrKih7tVExrPtSdyvWbrKctDPppUw48+Gco+EfD2QIkW4xZyMYKo+X3IyR8DWuEOLM1tKrQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\is-arequelme\\source\\repos\\PruebaDapper\\PruebaDapper\\PruebaDapper.csproj",
+  "projectFilePath": "C:\\Users\\is-arequelme\\source\\repos\\git\\dapper\\PruebaDapper\\PruebaDapper\\PruebaDapper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\is-arequelme\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\is-arequelme\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

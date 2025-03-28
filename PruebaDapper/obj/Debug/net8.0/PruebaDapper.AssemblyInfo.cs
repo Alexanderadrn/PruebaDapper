@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PruebaDapper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb8c5ee5adb402d4c439a64595e2b954637038da")]
 [assembly: System.Reflection.AssemblyProductAttribute("PruebaDapper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PruebaDapper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

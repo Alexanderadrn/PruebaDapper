@@ -12,9 +12,9 @@ namespace PruebaDapper.Controllers
             this.persona = _persona;
         }
         [HttpGet("ObtenerPersonasDapper")]
-        public async Task<IActionResult> ObtenerEstudiantes()
+        public async Task<IActionResult> ObtenerEstudiantes([FromQuery] string cedula)
         {
-            var resultado = await persona.ObtenerPersona();
+            var resultado = await persona.ObtenerPersona(cedula);
             return Ok(resultado);
 
             //return new JsonResult(persona.ObtenerPersona());
